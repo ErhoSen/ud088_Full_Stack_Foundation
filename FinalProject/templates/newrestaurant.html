@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}"/>
+    <title>Action</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="page-header">
+                Create new Resaturant!
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <form action="{{ url_for('newRestaurant') }}" method ='POST'>
+                    <label>
+                        Name:
+                        <input type='text' size='30' name='name'>
+                    </label>
+                    <input type='submit' value='create'>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

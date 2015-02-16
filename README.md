@@ -1,5 +1,5 @@
 # ud088_Full_Stack_Foundation
-Solution Code to Full Stack Foundations (ud088)
+My Solution Code during the course and Final Project.
 
 ## Syllabus
 
